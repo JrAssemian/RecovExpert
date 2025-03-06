@@ -1,6 +1,6 @@
 //import React from 'react';
 import { motion } from "framer-motion";
-import { Folder, Handshake, Activity, BarChart, ArrowRight } from "lucide-react";
+import { Folder, Handshake, Activity, ArrowRight, CheckCircle } from "lucide-react";
 
 const Services = () => {
   return (
@@ -23,7 +23,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {/* Service 1 */}
           <motion.div 
             className="feature-card bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]"
@@ -58,12 +58,12 @@ const Services = () => {
               <h4 className="font-bold text-[#1a1a1a]">
                 🎯 Objectif : Récupérez vos créances tout en préservant vos relations d'affaires.
               </h4>
-            </div> */}
+            </div> 
             <div className="mt-6">
               <a href="/contact" className="flex items-center text-[#1404c2] font-semibold hover:underline">
                 En savoir plus <ArrowRight className="ml-2 h-4 w-4" />
               </a>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Service 2 */}
@@ -114,15 +114,15 @@ const Services = () => {
               <h4 className="font-bold text-[#1a1a1a]">
                 🎯 Objectif : Gardez le contrôle sur chaque créance.
               </h4>
-            </div> */}
+            </div> 
             <div className="mt-6">
               <a href="/contact" className="flex items-center text-[#1404c2] font-semibold hover:underline">
                 En savoir plus <ArrowRight className="ml-2 h-4 w-4" />
               </a>
-            </div>
+            </div>*/}
           </motion.div>
 
-          {/* Service 3 */}
+          {/* Service 3 
           <motion.div 
             className="feature-card bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]"
             initial={{ y: 50, opacity: 0 }}
@@ -159,27 +159,74 @@ const Services = () => {
               <h4 className="font-bold text-[#1a1a1a]">
                 🎯 Objectif : Transparence totale et prise de décision optimisée.
               </h4>
-            </div> */}
+            </div> 
             <div className="mt-6">
               <a href="/contact" className="flex items-center text-[#1404c2] font-semibold hover:underline">
                 En savoir plus <ArrowRight className="ml-2 h-4 w-4" />
               </a>
             </div>
-          </motion.div>
+          </motion.div> */}
+        </div> 
+        
+        {/* Section Nos engagements */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold text-[#1a1a1a] text-center mb-8">Nos engagements</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <motion.div
+              className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]"
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+            >
+              <CheckCircle className="h-10 w-10 text-[#1404c2] mx-auto mb-4" />
+              <p className="text-gray-900 text-center">
+                <span className="text-[#1404c2] font-semibold">Respect de la réglementation :</span> Nous appliquons strictement les lois et normes en vigueur.
+              </p>
+            </motion.div>
+            <motion.div
+              className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]"
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              <CheckCircle className="h-10 w-10 text-[#1404c2] mx-auto mb-4" />
+              <p className="text-gray-900 text-center">
+                <span className="text-[#1404c2] font-semibold">Approche éthique et professionnelle :</span> Nos méthodes garantissent une relation respectueuse et constructive entre créanciers et débiteurs.
+              </p>
+            </motion.div>
+            <motion.div
+              className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]"
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+            >
+              <CheckCircle className="h-10 w-10 text-[#1404c2] mx-auto mb-4" />
+              <p className="text-gray-900 text-center">
+                <span className="text-[#1404c2] font-semibold">Confidentialité et sécurité :</span> Les données de nos clients et de leurs débiteurs sont protégées avec les plus hauts standards de sécurité.
+              </p>
+            </motion.div>
+          </div>
         </div>
+
+        {/* Conclusion 
+        <div className="text-center">
+          <p className="text-xl text-gray-900 max-w-3xl mx-auto">
+            Avec <span className="font-semibold text-[#1404c2]">RecovExpert</span> et <span className="font-semibold text-[#1404c2]">SoftRecov</span>, optimisez la gestion de vos créances tout en maintenant une relation de confiance avec vos clients.
+          </p>
+        </div> */}
 
         {/* Call to Action */}
         <div className="bg-[#f8f9fa] rounded-lg overflow-hidden shadow-lg p-8 text-center">
           <h3 className="text-2xl font-bold text-[#1a1a1a] mb-4">Prêt à optimiser votre recouvrement ?</h3>
-          <p className="text-lg text-gray-900 mb-6 max-w-2xl mx-auto">
-            Découvrez comment nos services peuvent transformer votre approche du recouvrement et améliorer votre trésorerie.
+          <p className="text-xl text-gray-900 max-w-3xl mb-4 mx-auto">
+            Avec <span className="font-semibold text-[#1404c2]">RecovExpert</span> et <span className="font-semibold text-[#1404c2]">SoftRecov</span>, optimisez la gestion de vos créances tout en maintenant une relation de confiance avec vos clients.
           </p>
           <motion.button 
             className="gradient-button text-white px-8 py-4 rounded-md font-semibold text-lg flex items-center mx-auto"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Demandez une démonstration
+            <a href="/contact">Demandez une démonstration</a>
             <ArrowRight className="ml-2 h-5 w-5" />
           </motion.button>
         </div>
