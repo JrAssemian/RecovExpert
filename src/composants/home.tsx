@@ -81,37 +81,37 @@ const Home = () => {
 
           {/* Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            <div className="feature-card bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
+            <div className="feature-card bg-[#f8f9fa] p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
               <CheckCheck className="h-10 w-10 text-[#1404c2] mb-4" />
               <h3 className="text-xl font-semibold text-[#1a1a1a] mb-2">Sans conflit, sans stress</h3>
               <p className="text-gray-900">Notre approche privilégie le dialogue et la négociation pour préserver vos relations commerciales.</p>
             </div>
             
-            <div className="feature-card bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
+            <div className="feature-card bg-[#f8f9fa] p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
               <Handshake className="h-10 w-10 text-[#1404c2] mb-4" />
               <h3 className="text-xl font-semibold text-[#1a1a1a] mb-2">Confiance et diplomatie</h3>
               <p className="text-gray-900">Un recouvrement basé sur la confiance et la diplomatie pour des résultats durables.</p>
             </div>
             
-            <div className="feature-card bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
+            <div className="feature-card bg-[#f8f9fa] p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
               <Scale className="h-10 w-10 text-[#1404c2] mb-4" />
               <h3 className="text-xl font-semibold text-[#1a1a1a] mb-2">Processus équitable</h3>
               <p className="text-gray-900">Un processus équitable et conforme aux réglementations en vigueur.</p>
             </div>
             
-            <div className="feature-card bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
+            <div className="feature-card bg-[#f8f9fa] p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
               <FileText className="h-10 w-10 text-[#1404c2] mb-4" />
               <h3 className="text-xl font-semibold text-[#1a1a1a] mb-2">Solutions légales</h3>
               <p className="text-gray-900">Des solutions légales et sécurisées pour le recouvrement de vos créances.</p>
             </div>
             
-            <div className="feature-card bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
+            <div className="feature-card bg-[#f8f9fa] p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
               <RefreshCw className="h-10 w-10 text-[#1404c2] mb-4" />
               <h3 className="text-xl font-semibold text-[#1a1a1a] mb-2">Fluidifiez votre trésorerie</h3>
               <p className="text-gray-900">Améliorez votre trésorerie sans recourir à des procédures judiciaires coûteuses.</p>
             </div>
             
-            <div className="feature-card bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
+            <div className="feature-card bg-[#f8f9fa] p-6 rounded-lg shadow-lg border-t-4 border-[#1404c2]">
               <Folder className="h-10 w-10 text-[#1404c2] mb-4" />
               <h3 className="text-xl font-semibold text-[#1a1a1a] mb-2">95% de réussite</h3>
               <p className="text-gray-900">Un taux de réussite exceptionnel sur l'ensemble de nos dossiers traités.</p>
