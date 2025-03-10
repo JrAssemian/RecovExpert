@@ -89,7 +89,7 @@ const Services = () => {
                 🔹<span className="text-[#1404c2] font-semibold">Prise en charge complète du recouvrement :</span> Nous gérons l’intégralité du processus, permettant aux entreprises de se concentrer sur leur cœur de métier.
               </p>
               <p>
-                🔹<span className="text-[#1404c2] font-semibold">Réduction des délais et optimisation des taux de : </span>Grâce à nos méthodes éprouvées et à l’intelligence de SoftRecov, nous maximisons le taux de récupération tout en minimisant les délais.
+                🔹<span className="text-[#1404c2] font-semibold">Réduction des délais et optimisation des taux de recouvrement : </span>Grâce à nos méthodes éprouvées et à l’intelligence de SoftRecov, nous maximisons le taux de récupération tout en minimisant les délais.
               </p>
               <p>
                 🔹<span className="text-[#1404c2] font-semibold">Rapports et analyses : </span> Nos clients bénéficient d’une transparence totale grâce aux tableaux de bord détaillés et aux analyses fournies par SoftRecov.
