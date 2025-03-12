@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
 import Header from "./composants/header.tsx";
 import Home from "./composants/home.tsx";
 import Services from "./composants/services.tsx";
@@ -20,13 +20,15 @@ function App() {
       {/* Contenu principal avec plus d’espace au-dessus */}
       <main>
         <div>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/qui-sommes-nous" element={<About />} />
-            <Route path="/nos-services" element={<Services />} />
-            <Route path="/Valeurs" element={<Valeurs />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+          <Router>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/valeurs" element={<Valeurs />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </Router>
         </div>
       </main>
 
